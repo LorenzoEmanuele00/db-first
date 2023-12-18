@@ -1,0 +1,19 @@
+CARS
+
+id - INT - UNISIGNED - PRIMARY_KEY(NOTNULL - UNIQUE) - AUTOINCREMENT
+plate - VARCHAR(8) - NOTNULL - UNIQUE
+brand - VARCHAR(20) - NOTNULL
+model - VARCHAR(20) - NOTNULL
+optionals - TEXT - NULL
+year - YEAR - NOTNULL
+color - VARCHAR(50) - NOTNULL
+seats - TINYINT - NOTNULL
+engine - VARCHAR(20) - NOTNULL
+cv - SMALLINT - NULL
+weight_kg -  DOUBLE(7,2) - NOTNULL
+dimensions - VARCHAR(255) - NOTNULL
+cargo_space - SMALLINT - NOTNULL
+damage_description - TEXT - NULL
+original_price - DECIMAL(9,2) - NOTNULL
+price - DECIMAL(9,2) - NOTNULL
+discount - DECIMAL(7,2) - NOTNULL - DEFAULT(0)
